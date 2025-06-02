@@ -36,5 +36,6 @@ test.only('second Playwright test', async  ({ browser })=> {
     console.log(await cardtitle.first().textContent());
     const alltitles = await cardtitle.allTextContents();
     console.log(alltitles);
+    
 
 });
